@@ -1,0 +1,113 @@
+{
+  "users": [
+    {
+      "id": 102,
+      "firstName": "Raj",
+      "lastName": "gholap",
+      "email": "rajgholap@gmail.com",
+      "location": "Bengalore"
+    },
+    {
+      "id": 103,
+      "firstName": "Sanket",
+      "lastName": "Kale",
+      "email": "sanketkale@gmail.com",
+      "location": "Bengalore"
+    },
+    {
+      "id": 104,
+      "firstName": "Raj",
+      "lastName": "gholap",
+      "email": "rajgholap@gmail.com",
+      "location": "Bengalore"
+    },
+    {
+      "id": 105,
+      "firstName": "Varun",
+      "lastName": "Nadipudi",
+      "email": "varun.nadipudi@mtx.com",
+      "location": "Hydrabad"
+    },
+    {
+      "id": 108,
+      "firstName": "NRK",
+      "lastName": "K",
+      "email": "nrk@gmail.com",
+      "location": "pune"
+    },
+    {
+      "id": 109,
+      "firstName": "NR",
+      "lastName": "K",
+      "email": "nrk@gmail.com",
+      "location": "pune"
+    }
+  ],
+  "insurance": [
+    {
+      "Pno": 101111,
+      "PHName": "Navnath",
+      "PA": 1000000,
+      "AFEMI": 10000,
+      "NName": "Raj"
+    },
+    {
+      "Pno": 101112,
+      "PHName": "ABCD",
+      "PA": 1000000,
+      "AFEMI": 10000,
+      "NName": "Raj"
+    },
+    {
+      "Pno": 101113,
+      "PHName": "Abcd",
+      "PA": 1000000,
+      "AFEMI": 10000,
+      "NName": "varun"
+    },
+    {
+      "Pno": 101114,
+      "PHName": "Raj",
+      "PA": 1000000,
+      "AFEMI": 10000,
+      "NName": "Navnath"
+    }
+  ],
+  "registeration": [
+    {
+      "fullname": "asdda",
+      "email": "",
+      "password": "",
+      "mobile": "asddas",
+      "id": 1
+    },
+    {
+      "fullname": "navnath",
+      "email": "kumbharnr@gmail.com",
+      "password": "nrkumbhar123",
+      "mobile": "131231212",
+      "id": 2
+    },
+    {
+      "fullname": "test",
+      "email": "qqq@gmail.com",
+      "password": "1234",
+      "mobile": "0987654321",
+      "id": 3
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 4
+    },
+    {
+      "fullname": "navnath",
+      "email": "asdas@gmail.com",
+      "password": "nkk",
+      "mobile": "0987665555",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+.abb{
+    text-align: center;
+    text-overflow:inherit;
+    padding: 10px;
+    margin: 5px;
+
+}
+p{
+    padding: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+}
+.about{
+    border: 1.5px solid black;
+    padding: 0;
+    margin: 10px;
+}
+
+.col_4{
+    border-left: 0;
+    width: 20%;
+    border: 1.5px solid black;
+    margin: 10px;
+
+}
+
+.dvfoundHeader{
+    width: 30%;
+    margin-left: 30px;
+    text-align: center;
+}
+.dvfoundHeader img{
+    align-items: center;
+}
+.dvfoundYear{
+    display: inline-block;
+}

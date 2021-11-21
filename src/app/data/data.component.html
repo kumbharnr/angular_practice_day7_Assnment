@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+<body>
+  <div class="training">
+    <h1> </h1>
+    <hr>
+    <table id="users" class="table">
+      <thead class="thead-dark back">
+      <tr>
+        <th *ngFor="let col of columns">{{col}}</th>
+        <!-- <th>Actions</th> -->
+      </tr>
+      <tr *ngFor="let user of userRestService">
+        <td>{{user.id}}</td>
+        <td>{{user.firstName}}</td>
+        <td>{{user.lastName}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.location}}</td>
+        <!-- <button class="btn btn-primary">Edit</button>
+        <button class="btn btn-danger">Delete</button> -->
+
+      </tr>
+    </thead>
+    </table>
+    <button class="btn btn-primary" (click)="insertRecordInJson()">Insert Record</button><br>
+     <input type="text" [(ngModel)]="recordIdDeleteinJSONServer"><br>
+    <button class="btn btn-danger" (click)="recordToDeleteInJSON()">Delete Record</button>
+</div>
+<footer class="main-footer">
+  <nav>
+      <ul class="main-footer__links">
+          <li class="main-footer__link">
+              <a href="#">Support</a>
+
+          </li>
+          <li class="main-footer__link">
+              <a href="#">Terms Of Use</a>
+          </li>
+      </ul>
+  </nav>
+</footer>
+
+</body>
+</html>
